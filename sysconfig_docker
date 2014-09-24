@@ -1,0 +1,1 @@
+other_args="--dns 127.0.0.1 --dns-search service.consul"

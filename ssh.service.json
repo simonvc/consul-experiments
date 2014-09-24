@@ -1,0 +1,11 @@
+{
+    "service": {
+        "name": "ssh",
+        "tags": ["sshd"],
+        "port": 22,
+        "check": {
+            "script": "/sbin/service sshd status",
+            "interval": "10s"
+        }
+    }
+}
